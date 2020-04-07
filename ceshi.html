@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git</title>
+</head>
+
+<body>
+    <div style="height: 100px;background-color: red;margin: 0 0 50px 0;padding: 1px;">您好</div>
+    <div style="height: 100px;background-color: pink;margin: 10px 0 0 0;padding: 1px;">123</div>
+    <script>
+        function fn() {
+            console.log(1);
+            setTimeout(() => {
+                console.log(2);
+            }, 0);
+            console.log(3);
+        }
+        // fn()
+        var j = 10;
+
+        function fn1() {
+            var j = 5;
+            console.log(j);
+            
+            return function () {
+                j = 11;
+                console.log(j);
+            }
+        }
+
+        fn1()()
+    </script>
+</body>
+
+</html>
